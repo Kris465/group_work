@@ -36,13 +36,13 @@ if 100 <= three_digit_number <= 999:
             print("   Все три цифры одинаковы.")
         elif hundreds_digit == tens_digit:
             print(f"   Совпадают сотни и десятки: {hundreds_digit}"
-                  "и {tens_digit}.")
+                  f"и {tens_digit}.")
         elif hundreds_digit == units_digit:
             print(f"   Совпадают сотни и единицы: {hundreds_digit}"
-                  "и {units_digit}.")
+                  f"и {units_digit}.")
         elif tens_digit == units_digit:
             print(f"   Совпадают десятки и единицы: {tens_digit}"
-                  "и {units_digit}.")
+                  f"и {units_digit}.")
     else:
         print(f"б) Нет, среди цифр числа {three_digit_number}"
               "нет одинаковых (все цифры разные).")
